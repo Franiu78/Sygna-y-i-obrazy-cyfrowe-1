@@ -119,7 +119,7 @@ for file_name in uploaded.keys():
     save_image(input_image, normal_file)
 
     # Pobranie pliku wynikowego
-    files.download(weird_file)
+    files.download(up_and_down_sampled_file)
     files.download(downsampled_file)
     files.download(upsampled_file)
     files.download(normal_file)
